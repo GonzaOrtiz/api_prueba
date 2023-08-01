@@ -17,7 +17,7 @@ namespace api_prueba.Controllers
         {
             _logger = logger;
         }
-
+        //edit
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
@@ -29,5 +29,6 @@ namespace api_prueba.Controllers
             })
             .ToArray();
         }
+
     }
 }
